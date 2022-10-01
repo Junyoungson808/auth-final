@@ -1,0 +1,30 @@
+{
+  "name": "lab-09",
+  "version": "1.0.0",
+  "description": "lab 09",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junyoungson808/lab-09.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Junyoungson808/lab-09/issues"
+  },
+  "homepage": "https://github.com/Junyoungson808/lab-09#readme",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.3",
+    "jest": "^29.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "sequelize": "^6.23.2",
+    "sequelize-cli": "^6.5.1",
+    "sqlite3": "^5.1.1"
+  }
+}
