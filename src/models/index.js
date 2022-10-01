@@ -14,11 +14,11 @@ const icecream = require('./icecream/icecream')(sequelize, DataTypes);
 const flavors = require('./flavors/flavors')(sequelize, DataTypes);
 
 // Relationships
-user.hasMany(icecream);
-icecream.belongsTo(user);
-icecream.hasOne(flavors);
-icecream.belongsTo(flavors);
-flavors.hasMany(icecream);
+user.hasMany(icecream);       // one user has many ice creams
+icecream.belongsTo(user);     // one ice cream belongs to one user
+icecream.hasOne(flavors);     // ice cream has one flavor
+icecream.belongsTo(flavors);  // ice cream belongs to flavors
+flavors.hasMany(icecream);    // flavors has many ice cream
 
 //EXPORTS
 module.exports = {
