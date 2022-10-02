@@ -1,4 +1,4 @@
-# auth-final
+# Auth-Final -  Coffee Shop
 lab 09
 
 ## Author: Junyoung Son , KC Hofstetter
@@ -11,6 +11,7 @@ lab 09
     "base-64": "^1.0.0",
     "bcrypt": "^5.0.0",
     "cors": "^2.8.5",
+    "db-create": "^1.2.0",
     "dotenv": "^8.2.0",
     "eslint": "^7.14.0",
     "express": "^4.17.1",
