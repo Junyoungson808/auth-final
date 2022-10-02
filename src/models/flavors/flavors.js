@@ -1,9 +1,9 @@
 'use strict';
 
 const flavorsModel = (sequelize, DataTypes) => sequelize.define('Flavors', {
-  name: { type: DataTypes.STRING, required: true },
-  flavor: { type: DataTypes.STRING, required: true },
-  calories: { type: DataTypes.NUMBER, required: true },
+  type: { type: DataTypes.ENUM('Caramel', 'Hazelnut', 'Chocolate','Pumpkin Spice', 'Vanilla'), required: true },
+  pumps: { type: DataTypes.INTEGER, required: true },
+  calories: { type: DataTypes.INTEGER, required: true },
 });
 
 module.exports = flavorsModel;
